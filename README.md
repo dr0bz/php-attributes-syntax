@@ -1,7 +1,8 @@
 # PHP Attributes Syntax
 
-This syntax file adds highlighting instructions for PHP 8 attributes. I wrote this as an addition to
-the official vim php syntax which lacks this syntax.
+This syntax file adds syntax/highlighting groups for PHP 8
+[attributes](https://www.php.net/manual/en/language.attributes.overview.php). I wrote this as an
+addition to the official Vim php syntax which lacks attributes.
 
 ## Example
 
