@@ -1,4 +1,4 @@
-# PHP Attributes Syntax
+# PHP Attributes Syntax for Vim
 
 This syntax file adds syntax/highlighting groups for PHP 8
 [attributes](https://www.php.net/manual/en/language.attributes.overview.php). I wrote this as an
