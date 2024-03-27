@@ -13,6 +13,7 @@ syn match phpAttributeNamedArgument /\w\+\:\s/ containedin=phpAttributeBlock
 syn match phpAttributeString /'.\{-}'/ containedin=phpAttributeBlock
 syn match phpAttributeNumber /[0-9.]\+/ containedin=phpAttributeBlock
 syn case match
+syn match phpAttributeConstant /::[A-Z\_]\+/hs=s+2 containedin=phpAttributeBlock
 syn match phpAttributeConstant /\\[A-Z\_]\+\>/ containedin=phpAttributeBlock
 syn case ignore
 syn match phpAttributeClassName /#\[.\+(/hs=s+2,he=e-1 containedin=phpAttributeBlock
